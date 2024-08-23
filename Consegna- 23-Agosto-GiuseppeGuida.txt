@@ -1,0 +1,38 @@
+ANALISI DEL PROGRAMMA
+
+Il programma e' un compile di istruzioni per la creazione di un assistente virtuale che principalmente e' utilizatto per interrogazioni semplici su data e ora.
+
+Dopo aver importato la libreria <datetime> utile a completare la richiesta di alcuni dei suddetti comandi si passa a creare una funzione con il comando <def> di una costante <comando>, che e' seguita da altre dichiarazioni usando il metodo <datetime> e dal modulo che servira' a risolvere la request in questione.
+
+Creando un ciclo <if>/<else> ed utilizzando la libreria <datetime> siamo in grado con semplici comandi di ricevere un output ordinato aggiungendo il metodo <.strftime>.
+
+Il ciclo <while> finche' <True> restituira' un loop <input> a meno che l' utente non eseguira' la request "esci".
+
+
+## ERRORI 
+
+1. Le assegnazioni sono case sensitive.
+
+2. Errore di battitura per il metodo <datetoday>. che dovrebbe essere <date.today>.
+
+3. Al ciclo <while> manca il carattere <:> per dichiararlo.
+
+
+## SOLUZIONI
+
+1. Integrare un metodo <.lower> per ovviare al problema. 
+
+2. Correggere battitura metodo in <date.today>.
+
+3. Aggiungere carattere <:>.
+
+
+
+
+
+
+
+
+
+
+
